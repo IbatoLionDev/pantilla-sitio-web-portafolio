@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="IbatoLionDev"> 
+        <meta name="description" content="Portafolio de desarrollo web de IbatoLionDev">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+        <!-- bootstrap-5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Titulo -->
+        <title>IbatoLionDev | Desarrollo Web Front-End</title>
+        <link rel="shortcut icon" href="imgs/logo.jpg" type="image/x-icon">
+    </head>
+    <body>
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-light"> 
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/icono.png" width="50" alt="Logo de HTML">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </nav>
+          <!-- Barra de navegacion -->
+        <!-- Seccion Main -->
+        <section class="main align-items-stretch">
+            <div class="main-info d-flex flex-column justify-content-center align-items-center">
+                <img class="main-imagen-perfil" src="imgs/imagenes-desarrolladores/IbatoLionDev.png"  alt="Foto de IbatoLionDev">
+                <h1>Hola, soy Roberto Ibarra</h1>
+                <h2>Desarrollador web Junior y estudiante de Ingeniería en Ciencias Informáticas.</h2>
+            </div>
+            <div class="main-inferior">
+                <img class="main-inferior-imagen img-fluid" src="imgs/hero-inferior.svg" alt="laptop y logo des de HTML, CSS, JavaScript y React ">
+            </div>
+        </section>
+        <!-- Sobre mi -->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+          <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Roberto Ibarra</h2>
+            <p class="seccion-texto">
+              Mi nombre completo es Roberto Ibarra Hernández, soy cubano residente en Cuba. <br>
+            </p>
+          </div>
+        </section>
+        <!-- Experiencia -->
+        <section class="experiencia seccion-clara">
+          <div class="container text-center">
+            <div class="row">
+              <!-- Desarrollo Web -->
+              <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Desarrollo Web</p>
+                  <p>
+                    Mis metas profesionales se enfocan en el desarrollo de sitios webs para clientes dentro y fuera de Cuba. <br>
+                    Cuento con un año dedicándome al diseño web, haciendo uso de diversas tecnologias Front-End. <br>
+                  </p>
+                  <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-primary">HTML</span>
+                    <span class="badge rounded-pill text-bg-primary">CSS</span>
+                    <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-primary">Bootstrap</span>
+                  </div>
+              </div>
+              <!-- Aplicaciones de Escritorio -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Aplicaciones de Escritorio</p>
+                <p>
+                  Cuento con 1 año de experiencia desarrollando aplicaciones para escritorio en el lenguaje  Java. <br>
+                  He desarrollado sistemas de gestión apoyados en bases de datos SQL y domino varios gestores como son SQLite y SQL Server. <br>
+                </p>
+                <div class="badges-contenedor">
+                  <span class="badge rounded-pill text-bg-primary">Java</span>
+                  <span class="badge rounded-pill text-bg-primary">Netbeans</span>
+                  <span class="badge rounded-pill text-bg-primary">SQLite</span>
+                  <span class="badge rounded-pill text-bg-primary">SQL Server</span>
+                </div>
+              </div>
+              <!-- Estudiante -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudios</p>
+                <p>
+                  Curso mis estudios superiores en la Universidad de Ciencias Informáticas (UCI) ubicada en La Habana, Cuba. <br>
+                  Me proyecto para implementar un sistema con Inteligencia Artificial como Tesis de Grado. <br>
+                </p>
+                <div class="badges-contenedor">
+                  <span class="badge rounded-pill text-bg-primary">Desarrollo Web</span>
+                  <span class="badge rounded-pill text-bg-primary">Python</span>
+                  <span class="badge rounded-pill text-bg-primary">AI</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- Proyectos -->
+        <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+          <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+          <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+          <!-- Galeria de Proyectos -->
+          <div class="container text-center proyectos-contenedor">
+            <div class="row">
+              <!-- Proyecto 1 -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imgs/proyecto1.png" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Descripción Proyecto 1</p>
+                    <div class="iconos-contenedor">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Proyecto 2 -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imgs/proyecto2.png" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Descripción Proyecto 2</p>
+                    <div class="iconos-contenedor">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Proyecto 3 -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imgs/proyecto3.png" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Descripción Proyecto 3</p>
+                    <div class="iconos-contenedor">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+              Ver Más
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </a>
+        </section>
+          <!-- Articulos -->
+          <!-- Aquí poner referencias a ar´ticulos leidos -->
+          <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo texto-negro">Artículos</h2>
+            <div class="card">
+              <div class="card-header">
+                Artículos que recomiendo
+              </div>
+              <ul class="list-group list-group-flush">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 1</li>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 2</li>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 3</li>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 4</li>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 5</li>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">Título Artículo 6</li>
+                </a>
+              </ul>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-info">
+                Ver Más
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </button>
+            </a>
+          </section>
+          <!-- Testimonios -->
+          <section id="testimonios" class="testimonios seccion-clara">
+            <h2 class="seccion-titulo">Recomendaciones</h2>
+            <h3 class="seccion-descripcion">Estas son algunas recomendaciones y testimonios de personas con las que he trabajado</h3>
+            <!-- Carrusel -->
+            <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonios-carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonios-carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonios-carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <img class="testimonio-imagen" src="imgs/cliente1.svg" alt="...">
+                    <p class="testimonio-texto">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ut totam ea ratione asperiores voluptas quisquam nisi amet est eius ducimus unde error adipisci tempora corporis repellat dolorum, explicabo ipsam?
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequatur earum officia quos excepturi ipsum esse ut hic tempore sunt, natus, necessitatibus iusto odio, corporis rem cupiditate nam consequuntur culpa!
+                    </p>
+                    <div class="testimonio-info">
+                      <p class="persona-nombre">Nombre de la persona</p>
+                      <p class="persona-cargo">Cargo de la persona</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen" src="imgs/cliente2.svg" alt="...">
+                    <p class="testimonio-texto">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ut totam ea ratione asperiores voluptas quisquam nisi amet est eius ducimus unde error adipisci tempora corporis repellat dolorum, explicabo ipsam?
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequatur earum officia quos excepturi ipsum esse ut hic tempore sunt, natus, necessitatibus iusto odio, corporis rem cupiditate nam consequuntur culpa!
+                    </p>
+                    <div class="testimonio-info">
+                      <p class="persona-nombre">Nombre de la persona</p>
+                      <p class="persona-cargo">Cargo de la persona</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen" src="imgs/cliente3.svg" alt="...">
+                    <p class="testimonio-texto">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ut totam ea ratione asperiores voluptas quisquam nisi amet est eius ducimus unde error adipisci tempora corporis repellat dolorum, explicabo ipsam?
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequatur earum officia quos excepturi ipsum esse ut hic tempore sunt, natus, necessitatibus iusto odio, corporis rem cupiditate nam consequuntur culpa!
+                    </p>
+                    <div class="testimonio-info">
+                      <p class="persona-nombre">Nombre de la persona</p>
+                      <p class="persona-cargo">Cargo de la persona</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </section>
+          <!-- Contacto -->
+          <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+              <div class="container rectangulo text-center d-flex justify-content-evenly">
+                <div class="row">
+                  <div class="row-mensaje col-12 col-md-4 seccion-titulo">
+                    Hablemos!!!
+                  </div>
+                  <div class="col-12 col-md-4 descripcion">
+                    Contáctame para iniciar tu proyecto de desarrollo web convirtiendo tu visión en realidad
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="mailto:ibatoliondev@gmail.com">
+                      <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Footer -->
+          <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+            <img class="footer-logo" src="imgs/logo.jpg" alt="...">
+            <p class="footer-texto text-center">Aprendizaje y desarrollo diario.<br>Creemos un proyecto juntos</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://twitter.com/IbatoLion" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="https://www.instagram.com/ibatolion" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://github.com/IbatoLionDev" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="mailto:ibatoliondev@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div class="derecho-autor">Creado por IbatoLiondev (2023) &#169;</div>
+          </footer>
+        <!-- bootstrap-5 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
